@@ -1,0 +1,228 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  width: 100%;
+  height: 55px;
+  background-color: #0067A3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+.headerTitle{
+  font-size: 28px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.personRound{
+  border: 1px solid #FFFFFF;
+  margin-right: 20px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+}
+.personMain{
+  display: flex;
+  cursor: pointer;
+  height: 200px;
+  width: 200px;
+  margin-top: 160px;
+}
+.personBlock{
+  display: flex;
+  margin-left: 110px;
+}
+.personMenu{
+  width: 140px;
+  height: 100px;
+  margin-top: 50px;
+  transform: translateX(-140px);
+}
+.personArrow{
+  margin: 10px 10px 0 0;
+}
+.personIcon{
+  width: 25px;
+  height: 35px;
+}
+.personMenuMine{
+  width: 134px;
+  height: 60px;
+  background-color: #FFFFFF;
+  color: black;
+  border-radius: 5px;
+}
+.personCube{
+  width: 10px;
+  height: 10px;
+  background-color: #FFFFFF;
+  transform: translateX(40px) rotate(45deg) translateY(-90px);
+}
+.personProfile{
+  padding: 10px 0 0 10px;
+}
+.personLogOut{
+  padding-left: 10px;
+}
+.main{
+  width: 100%;
+  height: 580px;
+  background-color: #2f78bc;
+}
+.footer{
+  width: 100%;
+  height: 55px;
+  background-color: #0067A3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+}
+.footerCounts{
+  margin-left: 10px;
+}
+.footerName{
+  margin-right: 10px;
+}
+.list{
+  width: 300px;
+  background-color: #EBECF0;
+  border-radius: 5px;
+}
+
+.listTitle{
+  margin-top: 0px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+.listMain{
+  display: inline-flex;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.task{
+  width: 250px;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.addButton{
+  background-color: none;
+  border: none;
+  appearance: none;
+  font-size: 15px;
+  color: #737373;
+  cursor: pointer;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.addButton:hover{
+  color: black;
+}
+.form{
+  background-color: none;
+  border: none;
+  appearance: none;
+  font-size: 15px;
+  color: #737373;
+  margin-top: 15px;
+  cursor: pointer;
+  padding-bottom: 10px;
+  margin-left: 10px;
+}
+.formDescription{
+  margin-top: 10px;
+}
+.formButton{
+  float: right;
+  margin: 10px 10px 10px 0 ;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  font-size: 15px;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  color: #5E6C84;
+}
+
+.taskLink{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.detailsTitle{
+  margin-top: 0px;
+  transform: translateY(20px);
+  
+}
+.detailsChange{
+  margin-left: 10px;
+}
+.selectStatus{
+  margin-left: 10px;
+}
+.detailsMine{
+  margin-top: 0px;
+}
+.detailsBlock{
+  width: 1245px;
+  height: 548px;
+  margin-left: 10px;
+  background-color: #FFFFFF;
+  transform: translateY(10px);
+  align-items: center;
+  border-radius: 15px;
+}
+.homeLink{
+  float: right;
+}
+.detailsMineBlock{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.detailsTitle{
+  margin-left: 10px;
+}
+.detailsStatus{
+  width: 130px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  border-radius: 15px;
+  transform: translateY(40px);
+}
+.xmark{
+  width: 40px;
+  height: 40px;
+  color: black;
+  margin-right: 10px;
+  
+}
+.detailsCreated{
+  margin-left: 10px;
+}
+.detailsDescription{
+  margin-left: 10px;
+}
